@@ -1,0 +1,77 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: #F5B7B1;
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+.survey-form{
+    max-width: 750px;
+    border-radius: 5px;
+    overflow: hidden;
+    box-shadow: 0 30px 80px 10px rgba(0,0,0,0.2);
+    margin: 10px auto;
+    padding: 10px;
+    background-color: #E5E7E9;
+}
+hr{
+    margin: 10px;
+}
+p{
+    font-size: 1.2rem;
+    margin-bottom: 15px;
+}
+.form-heading{
+    text-align: center;
+}
+span{
+    color: red;
+}
+.comment{
+    text-align: left;
+    font-size: 1rem;
+}
+.form-group{
+    text-align: left;
+    padding: 10px;
+}
+
+input[type=text],
+input[type=email] {
+    width: 100%;
+    padding: 10px 15px;
+    margin: 8px 5px;
+    box-sizing: border-box;
+    border: 1px solid;
+    border-radius: 10px;
+}
+input[type=radio],
+input[type=checkbox]{
+    margin-left: 25px;
+    margin-right: 10px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding: 8px;
+}
+input[type=submit] {
+    width: 60%;
+    background-color: #4CAF50;
+    color: black;
+    font-family: 'Courier New', Courier, monospace, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 16px;
+    padding: 12px 18px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+} 
+input[type=submit]:hover {
+    background-color: #45a049;
+} 
+::placeholder{
+    font-family: 'Courier New', Courier, monospace, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 16px;
+}

@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="form-styles.css">
+    <link rel="shortcut icon" type="image/x-icon" href="favicon.ico">
+    <title>Classroom Observation Survey Form</title>
+</head>
+
+<body>
+    <figure class="survey-form">
+        <hr>
+        <h1 class="form-heading">Classroom Observation Survey</h1>
+        <hr>
+        <p>Please take a few minutes to fill out when conducting an observation</p>
+        <form action="#" method="POST">
+            <div class="form-group">
+                <label for="name">Teacher Observed<span>*</span> :</label>
+                <input type="text" name="name" id="name" required>
+            </div>
+            <div class="form-group">
+                <label for="email">Email<span>*</span> :</label>
+                <input type="email" name="email" id="email" placeholder="example@gmail.com" required>
+            </div>
+            <div class="form-group">
+                <label for="name">Observed by :</label>
+                <input type="text" name="name" id="name" required>
+            </div>
+            <div class="form-group">
+                <label for="grade">Grade Level :</label><br>
+                <input type="radio" id="grade" name="grade"> 5 <br>
+                <input type="radio" id="grade" name="grade"> 6 <br>
+                <input type="radio" id="grade" name="grade"> 7 <br>
+                <input type="radio" id="grade" name="grade"> 8 <br>
+            </div>
+            <div class="form-group">
+                <label for="environment">Classroom Environment :</label><br>
+                <input type="checkbox" name="environment" id="environment">Classroom is clean.<br>
+                <input type="checkbox" name="environment" id="environment">Board Configuration is up to date.<br>
+                <input type="checkbox" name="environment" id="environment">Standards are posted and visible to all
+                students.<br>
+                <input type="checkbox" name="environment" id="environment">Board Configuration is not up to date.<br>
+                <input type="checkbox" name="environment" id="environment">Standards are not posted.<br>
+            </div>
+            <div class="form-group">
+                <label for="knowledge">Depth of knowledge (Ranked based on highest level observed) :</label><br>
+                <input type="checkbox" name="knowledge" id="knowledge">List, Recognize<br>
+                <input type="checkbox" name="knowledge" id="knowledge">Classify, Compare<br>
+                <input type="checkbox" name="knowledge" id="knowledge">Revise, Hypothesize<br>
+                <input type="checkbox" name="knowledge" id="knowledge">Apply, Synthesize<br>
+            </div>
+            <div class="form-group">
+                <label for="bloom">Bloom's Taxonomy (Ranked based on highest level observed) :</label><br>
+                <input type="checkbox" name="bloom" id="bloom">Remembering<br>
+                <input type="checkbox" name="bloom" id="bloom">Understanding<br>
+                <input type="checkbox" name="bloom" id="bloom">Applying<br>
+                <input type="checkbox" name="bloom" id="bloom">Analyzing<br>
+                <input type="checkbox" name="bloom" id="bloom">Evaluating<br>
+                <input type="checkbox" name="bloom" id="bloom">Creating<br>
+            </div>
+            <div class="form-group">
+                <label for="bloom">Classroom Management and Organization for Learning :</label><br>
+                <input type="checkbox" name="bloom" id="bloom">Daily routines are evident<br>
+                <input type="checkbox" name="bloom" id="bloom">Variety in instructional activities<br>
+                <input type="checkbox" name="bloom" id="bloom">Materials prepared in advance<br>
+                <input type="checkbox" name="bloom" id="bloom">Materials are easily accessible<br>
+                <input type="checkbox" name="bloom" id="bloom">Daily routines are not evident<br>
+                <input type="checkbox" name="bloom" id="bloom">Materials are not easily accessible<br>
+            </div>
+            <div class="form-group">
+                <label for="bloom">Student Behavior/Skills Demonstrated :</label><br>
+                <input type="checkbox" name="bloom" id="bloom">On Task Behavior<br>
+                <input type="checkbox" name="bloom" id="bloom">Critical Thinking Skills<br>
+                <input type="checkbox" name="bloom" id="bloom">An Understanding of What to Do<br>
+                <input type="checkbox" name="bloom" id="bloom">Interest in the Subject<br>
+                <input type="checkbox" name="bloom" id="bloom">Engagement<br>
+                <input type="checkbox" name="bloom" id="bloom">Boredom<br>
+                <input type="checkbox" name="bloom" id="bloom">Little Interest<br>
+            </div>
+            <div class="form-group">
+                <label for="bloom">Instructional Strategies (Check if observed) :</label><br>
+                <input type="checkbox" name="bloom" id="bloom">Direct insrtuctions (Lectures, powerpoint, etc)<br>
+                <input type="checkbox" name="bloom" id="bloom">Note Taking<br>
+                <input type="checkbox" name="bloom" id="bloom">Socratic Questioning/Reflective Discussion<br>
+                <input type="checkbox" name="bloom" id="bloom">Inquiry<br>
+                <input type="checkbox" name="bloom" id="bloom">Performance Task<br>
+                <input type="checkbox" name="bloom" id="bloom">Technology Integration<br>
+                <input type="checkbox" name="bloom" id="bloom">Review<br>
+            </div>
+            <div class="form-group">
+                <label for="bloom">Check for Understanding :</label><br>
+                <input type="checkbox" name="bloom" id="bloom">Direct insrtuctions (Lectures, powerpoint, etc)<br>
+                <input type="checkbox" name="bloom" id="bloom">Note Taking<br>
+                <input type="checkbox" name="bloom" id="bloom">Socratic Questioning/Reflective Discussion<br>
+                <input type="checkbox" name="bloom" id="bloom">Inquiry<br>
+                <input type="checkbox" name="bloom" id="bloom">Performance Task<br>
+                <input type="checkbox" name="bloom" id="bloom">Technology Integration<br>
+                <input type="checkbox" name="bloom" id="bloom">Review<br>
+            </div>
+            <div class="form-group">
+                <label for="wows">Wows :</label>
+                <input type="text" name="wows" id="wows" required>
+            </div>
+            <div class="form-group">
+                <label for="wonderings">Woderings :</label>
+                <input type="text" name="wonderings" id="wonderings" required>
+            </div>
+            <input type="submit" name="submit" id="submit">
+        </form>
+    </figure>
+</body>
+
+</html>

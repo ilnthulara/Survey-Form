@@ -1,4 +1,6 @@
 # Survey-Form
 This is just a test HTML page with CSS.
 
-This is my First Github Project.
+First Github Project.
+
+To execute this open the  index.html file in the browser.
